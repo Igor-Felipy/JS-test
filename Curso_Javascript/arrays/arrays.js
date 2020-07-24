@@ -66,3 +66,34 @@ console.log(numeros);
 
 
 
+
+
+
+// cortar e combinar
+const primeiro = [1,2,3];
+const segundo = [4,5,6];
+
+const combinado = primeiro.concat(segundo);
+console.log(combinado);
+
+//dividir
+const cort = combinado.slice(1,3);
+console.log(cort);
+
+
+
+//spread
+const comb = [...primeiro,...segundo];
+console.log(comb);
+
+// clonar
+const copp = [...primeiro];
+console.log(copp);
+
+
+
+// combinar 
+const frase = 'ola mundo !';
+const n1 = frase.split(' ');
+const n = n1.join('.');
+console.log(n);
